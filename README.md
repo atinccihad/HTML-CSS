@@ -93,4 +93,4 @@ textarea : Çok uzun miktarda yazı girilmesini sağlayan form elemanı textarea
 =============================================================================================
 button : Genel amaç için button oluşturur. Butonun default olarak bir görevi yoktur.
 submit : Form bilgilerini backend e gönderen bir buton oluşturur.
-reset : Formdaki bilgileri resetleyen bir buton oluşturur
+reset : Formdaki bilgileri resetleyen bir buton oluşturur.
