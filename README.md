@@ -1,10 +1,11 @@
 Web sayfaları hazırlamak için kullanılan bir işaretleme dilidir. Html bir programlama dili değildir, işaretleme dilidir. (Hyper Text Markup Language)
 •Html komutlarına tagdenir.
 •Taglar büyüktür küçüktür işaretlerinin arasına yazılır < > Örnek: <html> <b> <u> <p>
-•İstisnalar dışında tagların başlangıç ve bitişleri vardır. Bitiş tagları «/» işareti ile belirtilir.Örnek: <b>Merhaba</b> <p>Nasılsın</p>
+•İstisnalar dışında tagların başlangıç ve bitişleri vardır. 
+Bitiş tagları «/» işareti ile belirtilir.Örnek: <b>Merhaba</b> Nasılsın
   =============================================================================================
   Bir web sayfası oluşturmak için yapılması gerekenler
-  .............................................................................................
+  =============================================================================================
   -Html uzantılı                       -html
    dosya oluştur                       -head
                                        -body
@@ -23,14 +24,17 @@ Merhaba. Bu benim ilk web sayfam
   Sayfanın en üst kısmına <!doctypehtml> eklenmesi gerekir.
  =============================================================================================
  <p> : Yazıları paragraf haline getirir.
- Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri 
+ Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere 
+ bir yazı galerisini alarak karıştırdığı 1500'lerden beri 
  endüstri standardı sahte metinler olarak kullanılmıştır.
 =============================================================================================
 <br> : Metin içinde satır başı yapmak için kullanılır
- Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere <br> bir yazı galerisini alarak karıştırdığı 1500'lerden beri 
+ Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere <br> 
+ bir yazı galerisini alarak karıştırdığı 1500'lerden beri 
  endüstri standardı sahte metinler olarak kullanılmıştır.
  HTML kodlarken alt satıra geçmek için enter tuşuna basılmasının, 
-   veya kelimeler arasında birden fazla boşluk bırakmak için space tuşuna basılmasının ziyaretçi tarafında bir etkisi yoktur.
+   veya kelimeler arasında birden fazla boşluk bırakmak için space tuşuna basılmasının 
+   ziyaretçi tarafında bir etkisi yoktur.
 =============================================================================================
  <hx> Yazıları başlık haline getirir. Standart 6 tane başlık tagı bulunmaktadır.
 <h1>Başlık 1</h1>
@@ -57,11 +61,13 @@ i : Yazıyı eğik (italik) yazdırmak için kullanılır.
 u : Yazının altını çizmek için kullanılır.
 <u>Bu yazının altını çizer</u>  
 =============================================================================================
-Biçimlendirme olarak hiçbir görsel katkısı olmayan sadece html elemanlarını gruplamak için kullanılan taglardır.  
+Biçimlendirme olarak hiçbir görsel katkısı olmayan sadece html elemanlarını 
+gruplamak için kullanılan taglardır.  
 div :  Blok elemandır, kapladığı alan ne olursa olsun tüm satırı işgal eder.
 span : Inline elemandır, sadece kapladığı alan kadar yer işgal eder.   
 =============================================================================================  
-a :  Web sitelerinde,Bir sayfadan başka bir sayfaya,Farklı bir siteye,Bağlantı vermek için <a> tagı kullanılır.
+a :  Web sitelerinde,Bir sayfadan başka bir sayfaya,Farklı bir siteye,
+Bağlantı vermek için <a> tagı kullanılır.
 =============================================================================================  
 img : Fotoğraf ekleme işlemleri img tagı ile yapılır.   
 =============================================================================================   
