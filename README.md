@@ -47,9 +47,9 @@ head
 <p>...</p>
 <h2>Full Stack Developer</h2>
 <p>.....</p>   
-==============================================================================
+
 <hr> :  Yatay çizgi oluşturmak için kullanılır  
-==============================================================================
+
 strong :  Metinleri kalınlaştırmak için kullanılır.
 <p>Lorem Ipsum, adı bilinmeyen bir matbaacının bir <strong> hurufat numune kitabı </strong> 
   oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri 
@@ -83,14 +83,16 @@ password : Şifre girişi için kullanılır. Girilen değer gösterilmez
 number : Sadece rakam girişi için kullanılır
 checkbox : Birden fazla işaretleme yapılabilecek seçenekler sunar.
 radio : Sadece tek seçim yapabileceği seçenekler sunar. 
-   Cinsiyet gibi. Name attribute u aynı olan radio butonlar kendi aralarında grup olurlar.
-file : Dosya yüklemek için kullanılır.
-select : Kullanıcıya listeden seçim yaptırmak için kullanılır. 
+    Cinsiyet gibi. Name attribute u aynı olan radio butonlar kendi aralarında 
+   grup olurlar.
+    file : Dosya yüklemek için kullanılır.
+    select : Kullanıcıya listeden seçim yaptırmak için kullanılır. 
    Ülke, şehir gibi seçimler bu şekilde yapılır. Bunun için select tagı kullanılır. 
    Her bir seçenek ise option tagı içine konulur.  
-textarea : Çok uzun miktarda yazı girilmesini sağlayan form elemanı textarea dır. 
+    textarea : Çok uzun miktarda yazı girilmesini sağlayan form elemanı textarea dır. 
    Geçerli değer textarea tagları arasına yazılabilir.   
 ==============================================================================
-button : Genel amaç için button oluşturur. Butonun default olarak bir görevi yoktur.
-submit : Form bilgilerini backend e gönderen bir buton oluşturur.
-reset : Formdaki bilgileri resetleyen bir buton oluşturur.
+    button : Genel amaç için button oluşturur. 
+   Butonun default olarak bir görevi yoktur.
+    submit : Form bilgilerini backend e gönderen bir buton oluşturur.
+    reset : Formdaki bilgileri resetleyen bir buton oluşturur.
