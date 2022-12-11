@@ -35,7 +35,7 @@ Merhaba. Bu benim ilk web sayfam
  HTML kodlarken alt satıra geçmek için enter tuşuna basılmasının, 
    veya kelimeler arasında birden fazla boşluk bırakmak için space tuşuna basılmasının 
    ziyaretçi tarafında bir etkisi yoktur.
-======================================================================================
+==============================================================================
  <hx> Yazıları başlık haline getirir. Standart 6 tane başlık tagı bulunmaktadır.
 <h1>Başlık 1</h1>
 <h2>Başlık 2</h2>
@@ -47,17 +47,17 @@ head
 <p>...</p>
 <h2>Full Stack Developer</h2>
 <p>.....</p>   
-==============================
+==============================================================================
 <hr> :  Yatay çizgi oluşturmak için kullanılır  
-==============================================
+==============================================================================
 strong :  Metinleri kalınlaştırmak için kullanılır.
 <p>Lorem Ipsum, adı bilinmeyen bir matbaacının bir <strong> hurufat numune kitabı </strong> 
   oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri 
   endüstri standardı sahte metinler olarak kullanılmıştır.</p>  
-===========================================================================================
+==============================================================================
 i : Yazıyı eğik (italik) yazdırmak için kullanılır.
 <i>Merhaba</i>
-=============================================================================================   
+==============================================================================
 u : Yazının altını çizmek için kullanılır.
 <u>Bu yazının altını çizer</u>  
 =========================================
@@ -68,15 +68,15 @@ span : Inline elemandır, sadece kapladığı alan kadar yer işgal eder.
 ============================================================================
 a :  Web sitelerinde,Bir sayfadan başka bir sayfaya,Farklı bir siteye,
 Bağlantı vermek için <a> tagı kullanılır.
-=====================================================================
+==============================================================================
 img : Fotoğraf ekleme işlemleri img tagı ile yapılır.   
-=====================================================
+==============================================================================
 Kullnıcıdan bilgi almak için kullanılan yapılara form denir. 
 Form içinde textbox, button, radio button, checkbox vb elemanlar olabilir.
 form : Tüm form elemanlarını içinde barındıran taşıyıcıdır.
 input : Kullanıcıdan bilgi almak için kullanılan form elemanlarının genel ismi
 label : Kullanıcıya form elemanı ile ilgili bilgi vermek için kullanılan eleman   
-================================================================================
+==============================================================================
 text : Genel bilgi girişi için kullanılır
 email : Sadece eposta girişlerini kabul eder 
 password : Şifre girişi için kullanılır. Girilen değer gösterilmez
@@ -90,7 +90,7 @@ select : Kullanıcıya listeden seçim yaptırmak için kullanılır.
    Her bir seçenek ise option tagı içine konulur.  
 textarea : Çok uzun miktarda yazı girilmesini sağlayan form elemanı textarea dır. 
    Geçerli değer textarea tagları arasına yazılabilir.   
-==========================================================================================
+==============================================================================
 button : Genel amaç için button oluşturur. Butonun default olarak bir görevi yoktur.
 submit : Form bilgilerini backend e gönderen bir buton oluşturur.
 reset : Formdaki bilgileri resetleyen bir buton oluşturur.
