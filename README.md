@@ -3,13 +3,13 @@ Web sayfaları hazırlamak için kullanılan bir işaretleme dilidir. Html bir p
 •Taglar büyüktür küçüktür işaretlerinin arasına yazılır < > Örnek: <html> <b> <u> <p>
 •İstisnalar dışında tagların başlangıç ve bitişleri vardır. 
 Bitiş tagları «/» işareti ile belirtilir.Örnek: <b>Merhaba</b> Nasılsın
-  =============================================================================================
+  <hr>
   Bir web sayfası oluşturmak için yapılması gerekenler
-  =============================================================================================
+ <hr>
   -Html uzantılı                       -html
    dosya oluştur                       -head
                                        -body
-  =============================================================================================
+ <hr>
   Bir web sayfasının en temel kod şablonu
 <html>
 <head>
@@ -19,15 +19,15 @@ Bitiş tagları «/» işareti ile belirtilir.Örnek: <b>Merhaba</b> Nasılsın
 Merhaba. Bu benim ilk web sayfam
 </body>
 </html>
- ==============================================================================                             
+<hr>                           
   Bir html sayfasının tarayıcılar tarafından Html5 olarak algılanabilmesi için:
   Sayfanın en üst kısmına <!doctypehtml> eklenmesi gerekir.
- ==============================================================================
+<hr>
  <p> : Yazıları paragraf haline getirir.
  Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere 
  bir yazı galerisini alarak karıştırdığı 1500'lerden beri 
  endüstri standardı sahte metinler olarak kullanılmıştır.
-========================================================================================
+<hr>
 <br> : Metin içinde satır başı yapmak için kullanılır
  Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere <br> 
  bir yazı galerisini alarak karıştırdığı 1500'lerden beri 
@@ -35,7 +35,7 @@ Merhaba. Bu benim ilk web sayfam
  HTML kodlarken alt satıra geçmek için enter tuşuna basılmasının, 
    veya kelimeler arasında birden fazla boşluk bırakmak için space tuşuna basılmasının 
    ziyaretçi tarafında bir etkisi yoktur.
-==============================================================================
+<hr>
  <hx> Yazıları başlık haline getirir. Standart 6 tane başlık tagı bulunmaktadır.
 <h1>Başlık 1</h1>
 <h2>Başlık 2</h2>
@@ -47,36 +47,36 @@ head
 <p>...</p>
 <h2>Full Stack Developer</h2>
 <p>.....</p>   
-
-<hr> :  Yatay çizgi oluşturmak için kullanılır  
+<hr>
+"<hr>" :  Yatay çizgi oluşturmak için kullanılır  
 
 strong :  Metinleri kalınlaştırmak için kullanılır.
 <p>Lorem Ipsum, adı bilinmeyen bir matbaacının bir <strong> hurufat numune kitabı </strong> 
   oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri 
   endüstri standardı sahte metinler olarak kullanılmıştır.</p>  
-==============================================================================
+<hr>
 i : Yazıyı eğik (italik) yazdırmak için kullanılır.
 <i>Merhaba</i>
-==============================================================================
+<hr>
 u : Yazının altını çizmek için kullanılır.
 <u>Bu yazının altını çizer</u>  
-=========================================
+<hr>
 Biçimlendirme olarak hiçbir görsel katkısı olmayan sadece html elemanlarını 
 gruplamak için kullanılan taglardır.  
 div :  Blok elemandır, kapladığı alan ne olursa olsun tüm satırı işgal eder.
 span : Inline elemandır, sadece kapladığı alan kadar yer işgal eder.   
-============================================================================
+<hr>
 a :  Web sitelerinde,Bir sayfadan başka bir sayfaya,Farklı bir siteye,
 Bağlantı vermek için <a> tagı kullanılır.
-==============================================================================
+<hr>
 img : Fotoğraf ekleme işlemleri img tagı ile yapılır.   
-==============================================================================
+<hr>
 Kullnıcıdan bilgi almak için kullanılan yapılara form denir. 
 Form içinde textbox, button, radio button, checkbox vb elemanlar olabilir.
 form : Tüm form elemanlarını içinde barındıran taşıyıcıdır.
 input : Kullanıcıdan bilgi almak için kullanılan form elemanlarının genel ismi
 label : Kullanıcıya form elemanı ile ilgili bilgi vermek için kullanılan eleman   
-==============================================================================
+<hr>
 text : Genel bilgi girişi için kullanılır
 email : Sadece eposta girişlerini kabul eder 
 password : Şifre girişi için kullanılır. Girilen değer gösterilmez
@@ -91,7 +91,7 @@ radio : Sadece tek seçim yapabileceği seçenekler sunar.
    Her bir seçenek ise option tagı içine konulur.  
     textarea : Çok uzun miktarda yazı girilmesini sağlayan form elemanı textarea dır. 
    Geçerli değer textarea tagları arasına yazılabilir.   
-==============================================================================
+<hr>
     button : Genel amaç için button oluşturur. 
    Butonun default olarak bir görevi yoktur.
     submit : Form bilgilerini backend e gönderen bir buton oluşturur.
