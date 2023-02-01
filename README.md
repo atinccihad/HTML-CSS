@@ -1,7 +1,8 @@
+<h3 align="center"><img src="https://miro.medium.com/max/4800/1*lJ32Bl-lHWmNMUSiSq17gQ.webp"/></h3>
 Web sayfaları hazırlamak için kullanılan bir işaretleme dilidir. Html bir programlama dili değildir, işaretleme dilidir. (Hyper Text Markup Language)
-•Html komutlarına tagdenir.
-•Taglar büyüktür küçüktür işaretlerinin arasına yazılır < > Örnek: <html> <b> <u> <p>
-•İstisnalar dışında tagların başlangıç ve bitişleri vardır. 
+• Html komutlarına tagdenir.
+• Taglar büyüktür küçüktür işaretlerinin arasına yazılır < > Örnek: <html> <b> <u> <p>
+• İstisnalar dışında tagların başlangıç ve bitişleri vardır. 
 Bitiş tagları «/» işareti ile belirtilir.Örnek: <b>Merhaba</b> Nasılsın
   <hr>
   Bir web sayfası oluşturmak için yapılması gerekenler
