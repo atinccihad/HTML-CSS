@@ -147,5 +147,67 @@ html
 <h5><li> s ve strike etiketleri</li></h5>
 <h5><li> strong etiketi</li></h5>
 <h5><li> u etiketi</li></h5></ul>
+<p>Sabit genişlikli bir yazıtipi içinde bir metin oluşturmak istediğiniz takdirde, HTML'in " pre /pre (elmaslar icinde yazacak sekilde<>)" etiketini kullanabilirsiniz. pre terimi, İngilizce preformatted (önceden biçimlendirilmiş) sözcüğünden alınmıştır. Bu etiket ayrıca metin içindeki boşlukları, satır başlarını ve tab'ları da anlamlı hale getirir.</p>
+<p>pre etiketi, width özelliğiyle birlikte kullanılarak bir satır içinde yer alabilecek en fazla karakter sayısı da belirlenebilir. pre /pre etiketleri arasında hiperlinkler (hyperlink) kullanılabilir. Bununla birlikte, pre /pre etiketleri arasında, diğer etiketlerin kullanılmasından kaçınmak gerekir.</p>
+<p>Aşağıdaki örnekte ülkeler ve nüfusları önceden belirlenmiş bir biçimde web sayfası üzerine yerleştirilmek isteniyor. HTML kodunda ilerde daha ayrıntılı olarak ele alacağımız hiperlink oluşturma ve bu bağlantı tıklandığı takdirde buna bağlı dosyayı ekranda görüntülemeyle ilişkili küçük bir örnek de yer almaktadır.</p>
+<p>Aşağıdaki HTML kodu çağrılınca ekranda alt çizgili ve mavi renkte bir "DAHA FAZLA BİLGİ İÇİN" ifadesi belirecektir. Bu bir hiperlink'tir ve tıklandığında X.htm dosyası çağrılmaktadır.</p>
+pre etiketinin kullanımını hiperlink ile birlikte anlatan örneğimiz aşağıdadır:
+<p><html>
+  <head>
+  <meta charset="UTF-8">
+  <title>ÜLKELER VE NÜFUSLARI</title>
+  </head>
+  
+<body>   
+    <h3>TÜRKİYE-ŞEHİRLER</h3>
+    <h3>ÜLKELER VE NÜFUSLARI</h3>
+<pre>
+ÜLKE ADI       NÜFUSU (MİLYON KİŞİ)
+TÜRKİYE           65  
+AVUSTURYA         8
+ABD               230
+ALMANYA           80
+<a href="X.htm">DAHA FAZLA BİLGİ İÇİN</a>
+</pre>
+</body>
+</html></p>
+<p>Yukardaki sayfa ekrana geldiği zaman, fareyle DAHA FAZLA BİLGİ İÇİN hiperlinkini tıkladığınızda, X.htm adlı HTML dosyası çağırılacaktır.</p>
+<br>Aşağıda ise, X.htm adlı HTML dosyasının içeriği görülmektedir:
+<pre><html>
+  <head>
+  <meta charset="UTF-8">
+  <title>ÜLKELER VE NÜFUSLARI</title>
+    </head>
+  <body>
+   <h3>TÜRKİYE-ŞEHİRLER</h3>
+<h3>ÜLKELER VE NÜFUSLARI</h3>
+    <pre>
+     ÜLKE ADI       NÜFUSU (MİLYON KİŞİ)       KBMG($)     KITA
+     TÜRKİYE        65                         3100        AVRUPA-ASYA          
+     AVUSTURYA      8                          25000       AVRUPA
+     ABD            230                        32000       KUZEY AMERİKA
+     ALMANYA        80                         29000       AVRUPA
+  </body>
+</html>
+</pre>
+<h5><li> br etiketI</li></h5>
+<br> etiketi, bulunduğu konumdan itibaren bir satırı sona erdirerek yeni bir satırın başına geçilmesini sağlar.
 
-<p></p>
+Aşağıdaki örnek kod incelenerek <br> etiketinin kullanımı görülebilir:
+
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>ÜLKELER VE NÜFUSLARI</title>
+    </head>
+  <body>   
+    <h3>ÜLKELER VE NÜFUSLARI</h3>
+   <p>Avusturya 8 milyon nüfuslu bir Orta Avrupa <br>ülkesidir.
+   Almanca resmi dilidir. Doğası itibariyle <br>dünyanın en güzel 
+ülkelerinden biridir.</p>
+  <p>Macaristan bir diğer Orta Avrupa <br>ülkesidir.
+  Nüfusu 10 milyondur. Komşuları genelde dağlık <br>birer ülke 
+olmalarına karşın Macaristan düz ovaları ve atlarıyla ünlüdür.</p>
+    </body>
+</html>
+
