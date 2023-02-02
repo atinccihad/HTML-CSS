@@ -214,3 +214,16 @@ olmalarına karşın Macaristan düz ovaları ve atlarıyla ünlüdür.</p>
 <h3> em etiketi</h3>
 <p>Bir metnin istenilen kısmını belirgin hale getirmek için kullanılır.<em> ve </em> etiketleri arasındaki kısım tipik olarak italik biçimde görüntülenir.</p>
 <br>em etiketinin nasıl kullanıldığını görmek için aşağıdaki örneği inceleyelim:
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>ALGORİTMA TANIMI</title>
+    </head>
+  <body>   
+    <dfn>ALGORİTMA </dfn>
+    <p>Algoritma bir problemi çözmek için izlenmesi gereken<em> işlem adımları kümesidir.</em></p>
+    </body>
+</html>
+<em> etiketi etkisindeki kısım “işlem adımları kümesidir” şeklinde italik olarak belirgin hale getirilmiştir.
+
+
