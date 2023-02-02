@@ -189,7 +189,7 @@ ALMANYA           80
      ALMANYA        80                         29000       AVRUPA
   </body>
 </html>
-</pre>
+</pre></p>
 <h5><li> br etiketI</li></h5>
 <br> etiketi, bulunduğu konumdan itibaren bir satırı sona erdirerek yeni bir satırın başına geçilmesini sağlar.
 
@@ -224,6 +224,157 @@ olmalarına karşın Macaristan düz ovaları ve atlarıyla ünlüdür.</p>
     <p>Algoritma bir problemi çözmek için izlenmesi gereken<em> işlem adımları kümesidir.</em></p>
     </body>
 </html>
-<em> etiketi etkisindeki kısım “işlem adımları kümesidir” şeklinde italik olarak belirgin hale getirilmiştir.
+em etiketi etkisindeki kısım “işlem adımları kümesidir” şeklinde italik olarak belirgin hale getirilmiştir.
+s ve strike etiketleri
+Uygulandıkları metnin üzerine bir çizgi çizilmesini sağlarlar.
+
+s ve strike kullanımı için aşağıdaki örneği inceleyebilirsiniz:
+
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title></title>
+    </head>
+  <body>
+    <h3> TEKNOKRATLAR </h3> 
+     <s>Bütün mimarlar</s> yüksek, mühendisler de <br>
+     Bir sen kaldın<strike> alçak mimar</strike> ey Sinan Usta!<br>
+Cemal Süreya
+    </body>
+  </html>
+  strong etiketi
+İşaret edilen metni özellikle vurgulamak için kullanılır. Bu vurgulama bold (koyu) yazı karakteriyle gerçekleştirilir.
+
+<strong> etiketinin kullanımını aşağıdaki örnekten görebilirsiniz.
+
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>ÖRNEKLER</title>
+    </head>
+  <body>
+    <h3> DİVAN EDEBİYATI </h3> 
+    <dfn>FUZULİ</dfn><br><br>
+    <strong>Öyle sermestemki idrak etmezem dünya nedür<br>
+            Men kimem saki olan kimdür mey-i sahbah nedür</strong>
+    </body>
+</html>
+
+<u> etiketi
+İşaretlediği metnin altına bir alt çizgi çekilmesini sağlar.
+
+<u> etiketinin nasıl kullanıldığını aşağıdaki örnekten görebilirsiniz:
+
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>ÖRNEKLER</title>
+    </head>
+  <body>
+    <h3> ÖNCE <u>DÜRÜST</u> OLUNUZ </h3> 
+     <h3>BUNUN DIŞINDAKİ <u>HER ŞEY İKİNCİ PLANDADIR</u> </h3> 
+  </body>    
+  </html>
+  
+  <h3>Çeşitli Yazı Biçimlendirmeleri</h3>
+  <b> etiketi
+<b> ve </b> etiketleri arasına alınan metin, koyu (bold) hale getirilir.
+
+<b> etiketinin nasıl kullanılacağını aşağıdaki örnekten görebilirsiniz.
+
+<html>
+  <head>
+   <title>Modern Türk Edebiyatı</title>
+  </head>
+  <body>
+    <h3>Attila İlhan</h3>
+    Ne <b>kadınlar sevdim</b>,zaten <b>yoktular</b><br>
+    Böyle bir sevmek <b>görülmemiştir</b>
+  </body>
+</html>
+
+
+<i> etiketi
+<i> ve </i> etiketleri arasına alınan metin, italik (eğik yazı biçimi) hale getirilir.
+
+<i> etiketinin nasıl kullanılacağını aşağıdaki örnekten görebilirsiniz:
+
+<html>
+  <head>
+    <title>Modern Türk Edebiyatı</title>
+  </head>
+  <body>
+    <h3>Behçet Necatıgil</h3>
+    Her çocuk bir <b><i>nur topudur</i></b><br>
+    Paçavralar içine bile düşse<br>
+    Bir nur topudur<br>
+    <b><i>Dar çağlara</i></b> gelmese<br>
+    Değmese hoyrat ayaklar<br>
+    Çamurlara belenmese<br>
+    Her çocuk bir nur topudur
+  </body>
+</html>
+
+
+<u> etiketi
+İşaretlediği metnin altına alt çizgi çekilmesini sağlar.
+
+<u> etiketiyle ilgili örneğimiz aşağıdadır:
+
+<html>
+  <head>
+  <title></title>
+    </head>
+  <body>
+    <h3>Önce <u>Dürüst</u> olunuz</h3>
+    <h3>Bunun dışındaki <u>Her şey ikinci plandadır</u></h3>
+  </body>
+  </html></html></body>
+  <h3>Link Olusturmak</h3>
+  <p>HTML'in önemli özelliklerinden biri, bir metin parçası ya da bir resim üzerinden başka bir belgeye bağlantı kurabilmesidir. Bu bağlantı, link adı verilen yapılar sayesinde gerçekleştirilmektedir. Bir resim ya da metnin rengi değiştirilerek ya da metin alt çizgili hale getirilerek bu resim ya da metnin bir hipermetin linki (hypertext link) ya da sadece link olduğu belirtilir.</p>
+  <p>Bir link oluşturmak için aşağıdaki adımlar izlenmelidir:</p>
+  <a sembolü ile başlanır.
+href="DosyaAdı" ifadesi yerleştirilir. Burada DosyaAdı parametresi, oluşturulan link yardımıyla çağrılacak olan dosyanın adıdır.
+> sembolünü yerleştiriniz.
+Linki oluşturacak metni giriniz.
+</A> etiketiyle ifadeyi tamamlayınız.
+<a href="http://gelecegiyazanlar.turkcell.com.tr">Anasayfa</a>
+Yukarıdaki örnekte anasayfa adında bir link oluşturulmakta ve bu bağlantıya fareyle tıklandığında portalın anasayfasını çağırmaktadır.
+
+
+
+URL yapısı
+URL, bir adres bilgisidir. Web tarayıcıya işaret edilen dosyanın nerede bulunduğunu gösterir. URL'ler, dosyaların Web ya da yerel sabit diskiniz üzerindeki yerini işaret eder.
+
+Bir URL'in genel yapısı aşağıdaki gibi üç kısımdan oluşur:
+
+Erişilecek olan kaynağın tipi (Web, FTP vb.)
+Sunucunun adresi
+Dosyanın yeri
+Bir URL'in yazılış biçimi aşağıdaki gibidir:
+
+KaynakTipi://host.saha [:port]/yol/DosyaAdı
+KaynakTipi parametresi aşağıdakilerden biri olabilir:
+
+file: Yerel sisteminizdeki bir dosya adıdır. Yerel erişim söz konusudur.
+ftp: Erişilecek kaynak bir FTP sunucusundaki dosyadır.
+http: Erişilecek kaynak World Wide Web üzerindeki bir sunucuda bulunan dosyadır.
+ 
+
+Target özelliği
+Target özelliği sayesinde, bağlanan web sitesinin nerede açılacağını belirleyebilirsiniz. Örneğin adresin yeni bir sayfada açılmasını sağlamak için aşağıdaki HTML kodunu girmek gerekir.
+
+<a href="http://gelecegiyazanlar.turkcell.com.tr" target="_blank">Turkcell Geleceği Yazanlar</a>
+Aşağıdaki tabloda, target özelliği ile kullanabileceğiniz parametrelerin listesi yer almaktadır:
+
+Özellik	Tanım
+_blank 	sayfayı yeni bir pencere ya da sekmede açar.
+_self	sayfayı aynı çerçevede açar. (öntanımlı olan özelliktir)
+_parent 	sayfayı bir üst çerçevede açar.
+_top	sayfayı en üst çerçevede açar.
+
+  
+ 
+
 
 
