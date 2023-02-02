@@ -146,7 +146,7 @@ html
 <h5><li> hr etiketi</li></h5>
 <h5><li> s ve strike etiketleri</li></h5>
 <h5><li> strong etiketi</li></h5>
-<h5><li> u etiketi</li></h5></ul>
+<h5><li> u etiketi</li></ul></h5>
 <p>Sabit genişlikli bir yazıtipi içinde bir metin oluşturmak istediğiniz takdirde, HTML'in " pre /pre (elmaslar icinde yazacak sekilde<>)" etiketini kullanabilirsiniz. pre terimi, İngilizce preformatted (önceden biçimlendirilmiş) sözcüğünden alınmıştır. Bu etiket ayrıca metin içindeki boşlukları, satır başlarını ve tab'ları da anlamlı hale getirir.</p>
 <p>pre etiketi, width özelliğiyle birlikte kullanılarak bir satır içinde yer alabilecek en fazla karakter sayısı da belirlenebilir. pre /pre etiketleri arasında hiperlinkler (hyperlink) kullanılabilir. Bununla birlikte, pre /pre etiketleri arasında, diğer etiketlerin kullanılmasından kaçınmak gerekir.</p>
 <p>Aşağıdaki örnekte ülkeler ve nüfusları önceden belirlenmiş bir biçimde web sayfası üzerine yerleştirilmek isteniyor. HTML kodunda ilerde daha ayrıntılı olarak ele alacağımız hiperlink oluşturma ve bu bağlantı tıklandığı takdirde buna bağlı dosyayı ekranda görüntülemeyle ilişkili küçük bir örnek de yer almaktadır.</p>
@@ -172,7 +172,7 @@ ALMANYA           80
 </body>
 </html></p>
 <p>Yukardaki sayfa ekrana geldiği zaman, fareyle DAHA FAZLA BİLGİ İÇİN hiperlinkini tıkladığınızda, X.htm adlı HTML dosyası çağırılacaktır.</p>
-<br>Aşağıda ise, X.htm adlı HTML dosyasının içeriği görülmektedir:
+<br>Aşağıda ise, X.htm adlı HTML dosyasının içeriği görülmektedir:</br>
 <pre><html>
   <head>
   <meta charset="UTF-8">
@@ -193,7 +193,7 @@ ALMANYA           80
 <h5><li> br etiketI</li></h5>
 <br> etiketi, bulunduğu konumdan itibaren bir satırı sona erdirerek yeni bir satırın başına geçilmesini sağlar.
 
-Aşağıdaki örnek kod incelenerek <br> etiketinin kullanımı görülebilir:
+Aşağıdaki örnek kod incelenerek br etiketinin kullanımı görülebilir:
 
 <html>
   <head>
@@ -211,3 +211,6 @@ olmalarına karşın Macaristan düz ovaları ve atlarıyla ünlüdür.</p>
     </body>
 </html>
 
+<h3> em etiketi</h3>
+<p>Bir metnin istenilen kısmını belirgin hale getirmek için kullanılır.<em> ve </em> etiketleri arasındaki kısım tipik olarak italik biçimde görüntülenir.</p>
+<br>em etiketinin nasıl kullanıldığını görmek için aşağıdaki örneği inceleyelim:
