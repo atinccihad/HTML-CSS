@@ -27,3 +27,117 @@ Hello World!
 <br>HTML 4.01 -> 1999
 <br>XHTML -> 2000
 <br>HTML5 -> 2014
+<h2>Bir HTML Belgesinin Yapısı</h2>
+<p>Bir HTML belgesi etiket dediğimiz bileşenlerden oluşur. HTML yapısındaki temel bileşen bir elemandır. Elemanları anlatmak için her gün gördüğünüz başlıklar, paragraflar, listeler birer elemandır. Etiketler kullanılarak bu elemanlar birbirinden ayrılarak mantıklı hale gelirler. HTML etiketleri yapısı ise çok basittir. < (küçüktür işareti) etiket ve > (büyüktür işareti) işaretiyle belirtilir. Örneğin, paragraf belirtmek için p etiketini kullanırız. Paragraf etiketini kapatmak istediğimizdeyse < işareti sonrasında / işareti koymak yeterlidir.</p>
+<p>HTML dili büyük küçük ayrımı yapan bir dil değildir. Bir etiketi girerken büyük, küçük ya da bir kısmı büyük bir kısmı küçük girebilirsiniz (XHTML için durum farklıdır. Tüm etiketlerin küçük harflerle yazılması gerekir) ve bu herhangi bir değişime sebep olmaz. Ancak; HTML sayfası içindeki tüm kodların küçük harfle yazılması, geliştiriciler arasında kabul görmüş bir kuraldır. Dolayısıyla etiketleri küçük harfle yazmanız tavsiye edilir.</p>
+<p>Bir HTML belgesi başlıca iki kısımdan oluşur:<br>Baş (HEAD) metni<br>Gövde (BODY) metni<br>Baş metni, sayfaya ait başlıkla ilişkili ifadeleri içerir.<br>Gövde metni ise, HTML koduna ait asıl metni içerir. Bu metin,<br>Paragraflar,<br>Listeler ve <br>Diğer elemanlardan oluşur.</p>
+<p>Genel olarak buraya kadar anlatılanları bir çatı altında toplayacak olursak:</p>
+<p>Tüm HTML belgeleri tip deklerasyonu ile başlamak zorundadır: ! DOCTYPE html
+HTML belgeleri, html etiketi ile başlar ve /html etiketi ile biter.
+HTML belgesi içindeki görüntülenen kısım ise body ve /body etiketleri arasında yer alır.
+Aşağıda basit bir HTML dosyası örneğini bulabilirsiniz.</p>
+<p>!DOCTYPE html
+html
+  head
+    titleBasit bir HTML metni başlığı/title
+    meta charset="utf-8"
+  /head
+  body
+    h1 HTML, Web'in dilidir./h1
+    P Bu metnin ilk paragrafıdır. /p
+    p Bu da ikinci paragraftır. /p
+  /body
+/html
+</p>
+<p>!DOCTYPE> deklerasyonu
+DOCTYPE deklerasyonu, web tarayıcıların bir web sitesini doğru bir şekilde göstermesini sağlamaktadır. Web üzerinde farklı belge tipleri bulunmaktadır:
+HTML5
+<!DOCTYPE html>
+HTML 4.01
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+XHTML 1.0
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"></p>
+<h2>En Temel HTML Etiket ve Anlamları</h2>
+HTML etiketi<br>
+HTML etiketi, tarayıcınıza, dosyanın HTML kodu ile yüklenmiş bilgi içerdiğini bildirir. Dosya adındaki .html uzantısı ise bu dosyanın bir HTML belgesi olduğunu belirtir.
+HEAD etiketi<br>
+Bir HTML belgesinin ilk kısmını belirler. İçinde TITLE elemanının bulunması zorunludur. Belgenin başlığını TITLE elemanı belirler.
+TITLE etiketi<br>
+TITLE etiketi yardımıyla oluşturduğunuz web sayfasının başlığını belirleyebilirsiniz. Bu başlık, yukarıda görüldüğü gibi, başlık çubuğu üzerinde görüntülenecektir.
+
+<br>Başlık içeriği, sayfanın içeriği ve işlevi ile uyumlu olmalıdır. Sayfayı tanımlayıcı nitelikte ve kısa olmalıdır.
+META etiketi<br>
+Meta etiketiyle sayfanızın bir tanımını yapabilir ve sayfa içeriğini uygun anahtar sözcüklerle tanımlayabilirsiniz.<br>
+Bazı önemli meta etiketleri ve açıklamaları şu şekildedir:<br>
+Keywords: Sitenizin içeriğini oluşturan kelimelerin bulunduğu etikettir.<br>
+Description: Bu etiket site hakkında bilgi veren temel etiketlerden biridir.<br>
+Author: Site yapımcısının adı, iletişim bilgilerinin bulunduğu etikettir.<br>
+<h3>BODY etiketi</h3>
+HTML belgenizin ikinci ve en uzun parçası BODY kısmıdır. Belgenizin tüm içeriği burada yer alacaktır. Bir sonraki belgede açıklanan etiketlerin tümü BODY içinde yer alacaktır.<br>
+<h3>Body İçerisinde Yer Alan Temel HTML Etiketleri</h3>
+<h4>Başlıklar (Headings)</h4><br>
+HTML metni içinde H1 ile H6 aralığında ölçeklendirilmiş 6 farklı düzeyde başlık kullanılabilir. Burada H1 en büyük başlığı, H6 ise en küçük başlığı simgelemektedir.
+
+Bir başlık elemanının genel yazılış biçimi,
+
+<Hx>Başlık Metni</Hx>
+
+şeklindedir. Burada x, 1 ile 6 arasında bir tamsayıdır ve başlığın düzeyini belirlemektedir.
+
+HTML kodunuz içinde başlık düzeylerini atlatmamaya dikkat ediniz. Örneğin H1 ile başlayıp daha sonra H4'ü kullanmayın. Düzeyler birbirini sırasıyla izlemesi, arama motorları tarafından daha iyi bir konumda endekslenmeniz için de önemlidir.
+<h4>Paragraflar (Paragraphs)</h4>
+Oluşturacağınız Web sayfası üzerine yerleştireceğiniz metni ayrı paragraflar şeklinde ifade etmek için <p>  ve </p> etiketlerini kullanmalısınız.<br>
+<h4>Listeler (Lists)</h4>
+HTML, çeşitli türlerde listelerin oluşturulabilmesine olanak sağlar. Bu liste türleri,<br>
+Numaralanmamış liste<br>
+Numaralanmış liste<br>
+Tanım listesi<br>
+şeklindedir.
+<h4>Numaralanmamış liste</h4>
+Numaralanmamış listeyi oluşturmak için ul ve /ul etiketleri kullanılır. Bu etiketler arasına liste elemanlarını yerleştirmek için <li> etiketi kullanılır. Bu etiketi izleyen yere liste elemanı yerleştirilmelidir. li etiketinin /li etiketiyle kapatılması zorunlu değildir.
+<h4>İç İçe Listeler</h4>
+Listeleri iç içe de kullanabilirsiniz. Hatta, tek bir liste kalemi içinde iç içe listeler içeren paragraflar da düzenleyebilirsiniz.
+Ornek:{syntax'in belli olmasi icin alttaki taglari cevreleyen "< >" silinmistir.!!}<br> 
+html
+  head
+    title TÜRKİYE'DE BÜYÜK ŞEHİRLER VE İLÇELER</title>
+  /head
+  body   
+      h3 TÜRKİYE-ŞEHİRLER /h3
+       ul
+          li ISTANBUL'UN ÖNEMLİ İLÇELERİ /li
+              ul
+                 li Fatih /li
+                 li Bakırköy /li
+                 li Kadıköy /li
+              /ul
+          li ANKARA'NIN ÖNEMLİ İLÇELERİ /li
+              ul
+                li Çankaya /li
+                li Yenimahalle /li
+        /ul
+    /ul
+  /body
+/html
+<p><html>
+  <head>
+    <title>TÜRKİYE'DE BÜYÜK ŞEHİRLER VE İLÇELER</title>
+  </head>
+  <body>   
+      <h3>TÜRKİYE-ŞEHİRLER</h3>
+       <ul>
+          <li>ISTANBUL'UN ÖNEMLİ İLÇELERİ</li>
+              <ul>
+                 <li>Fatih</li>
+                 <li>Bakırköy</li>
+                 <li>Kadıköy</li>
+              </ul>
+          <li>ANKARA'NIN ÖNEMLİ İLÇELERİ</li>
+              <ul>
+                <li>Çankaya</li>
+                <li>Yenimahalle</li>
+        </ul>
+    </ul>
+  </body>
+</html></p>
+<p></p>
