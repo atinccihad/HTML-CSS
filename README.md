@@ -140,4 +140,12 @@ html
     </ul>
   </body>
 </html></p>
+<h4>Çok Kullanılan Body Etiketleri</h4>
+<ul><h5><li> pre etiketi</li></h5>
+<h5><li> br etiketI</li></h5>
+<h5><li> hr etiketi</li></h5>
+<h5><li> s ve strike etiketleri</li></h5>
+<h5><li> strong etiketi</li></h5>
+<h5><li> u etiketi</li></h5></ul>
+
 <p></p>
