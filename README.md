@@ -1,99 +1,29 @@
 <h3 align="center"><img src="https://miro.medium.com/max/4800/1*lJ32Bl-lHWmNMUSiSq17gQ.webp"/></h3>
-Web sayfaları hazırlamak için kullanılan bir işaretleme dilidir. Html bir programlama dili değildir, işaretleme dilidir. (Hyper Text Markup Language)
-• Html komutlarına tagdenir.
-• Taglar büyüktür küçüktür işaretlerinin arasına yazılır < > Örnek: <html> <b> <u> <p>
-• İstisnalar dışında tagların başlangıç ve bitişleri vardır. 
-Bitiş tagları «/» işareti ile belirtilir.Örnek: <b>Merhaba</b> Nasılsın
-  <hr>
-  Bir web sayfası oluşturmak için yapılması gerekenler
- <hr>
-  -Html uzantılı                       -html
-   dosya oluştur                       -head
-                                       -body
- <hr>
-  Bir web sayfasının en temel kod şablonu
+<h2>HTML'e Giriş</h2>
+<p>HTML, Hyper Text Markup Language ifadesinden oluşturulmuş bir İngilizce kısaltmadır ve Türkçe'ye "Hiper Metin İşaretleme Dili" şeklinde çevrilebilir. Bir işaretleme dilinin temel işlevi, bir belge içindeki metnin (text) yapısını, biçimini ve genel görünümünü tanımlayacak kuralları içermesi ve bunun uygulanmasına olanak vermesidir.</p>
+<p>İşaretleme dilinin kuralları belgeye yüklendikten sonra doğal olarak belge, bu kuralları okuyup nasıl uygulayacağını bilen bir bilgisayar programı tarafından işlenmelidir. Burada oluşturulan HTML içerikleri tarayıcılar tarafından anlamlaştırılarak, gördüğümüz web sitelerinin temelini oluştururlar.</p>
+<p>HTML öğrenebilmeniz için herhangi bir metin editörünü kullanmanız yeterlidir. Bu noktada size Sublime Text, Brackets ve Notepad++ gibi bazı başarılı metin editörlerini önerebiliriz. Bu editörler, HTML kodlarını yazarak bir web sitesi inşa etmek için kullanılmaktadır. Bunun dışında, görsel olarak da bir web sitesi oluşturmak mümkündür. Bunun için Microsoft Expression Web, Adobe Dreamweaver ve BlueGriffon gibi farklı araçlar kullanılabilir.</p>
+<p>Bu tür uygulamalar, görsel olarak yapmış olduğunuz işlemleri, arkaplanda HTML koduna dönüştürmektedir. Dilerseniz, Web Programlama kursunu tamamladıktan sonra, WYSIWYG uygulamaları kullanarak web sitenizi geliştirebilirsiniz. Ancak; HTML kodlamayı iyi bir şekilde öğrenmek için ilk etapta bu uygulamaları kullanmamanızı, HTML kod vurgulama özelliğine sahip metin editörleri kullanmanızı tavsiye ederiz.</p>
+<p>HTML dosyalarının çalıştırılması için oluşturduğunuz dosyaların sonuna .html uzantısı eklemeniz ve bir internet tarayıcısı üzerinde açmanız yeterli olacaktır. Böylelikle yazmış olduğunuz HTML kodları ile oluşturduğunuz web sitesini görüntüleyebilirsiniz.</p>
+<p>HTML derslerine başlamadan önce, az önce anlattığımız olayı basit bir örnekle gösterelim:
+
+Öncelikle istediğiniz bir metin editörünü açın ve aşağıdaki kodları yazın.{html taglari arasinda, head taglari arasinda, meta charset="utf-8", body taglari arasinda "Hello World!" metininin ekrana ciktisi sadece Hello World! seklinde olacaktir.}
 <html>
 <head>
-<title>İlk sayfam</title>
+<meta charset="utf-8">
 </head>
 <body>
-Merhaba. Bu benim ilk web sayfam
+Hello World!
 </body>
-</html>
-<hr>                           
-  Bir html sayfasının tarayıcılar tarafından Html5 olarak algılanabilmesi için:
-  Sayfanın en üst kısmına <!doctypehtml> eklenmesi gerekir.
-<hr>
- <p> : Yazıları paragraf haline getirir.
- Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere 
- bir yazı galerisini alarak karıştırdığı 1500'lerden beri 
- endüstri standardı sahte metinler olarak kullanılmıştır.
-<hr>
-<br> : Metin içinde satır başı yapmak için kullanılır
- Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere <br> 
- bir yazı galerisini alarak karıştırdığı 1500'lerden beri 
- endüstri standardı sahte metinler olarak kullanılmıştır.
- HTML kodlarken alt satıra geçmek için enter tuşuna basılmasının, 
-   veya kelimeler arasında birden fazla boşluk bırakmak için space tuşuna basılmasının 
-   ziyaretçi tarafında bir etkisi yoktur.
-<hr>
- <hx> Yazıları başlık haline getirir. Standart 6 tane başlık tagı bulunmaktadır.
-<h1>Başlık 1</h1>
-<h2>Başlık 2</h2>
-hx
-head  
-<h1>IT ALANINDAKİ MESLEKLER</h1>
-<p>Bu yazımızda IT sektöründe uzmanlaşabileceğiniz meslekleri anlattım.</p>
-<h2>Automation Engineer</h2>
-<p>...</p>
-<h2>Full Stack Developer</h2>
-<p>.....</p>   
-<hr>
-"<hr>" :  Yatay çizgi oluşturmak için kullanılır  
+</html></p>
 
-strong :  Metinleri kalınlaştırmak için kullanılır.
-<p>Lorem Ipsum, adı bilinmeyen bir matbaacının bir <strong> hurufat numune kitabı </strong> 
-  oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri 
-  endüstri standardı sahte metinler olarak kullanılmıştır.</p>  
-<hr>
-i : Yazıyı eğik (italik) yazdırmak için kullanılır.
-<i>Merhaba</i>
-<hr>
-u : Yazının altını çizmek için kullanılır.
-<u>Bu yazının altını çizer</u>  
-<hr>
-Biçimlendirme olarak hiçbir görsel katkısı olmayan sadece html elemanlarını 
-gruplamak için kullanılan taglardır.  
-div :  Blok elemandır, kapladığı alan ne olursa olsun tüm satırı işgal eder.
-span : Inline elemandır, sadece kapladığı alan kadar yer işgal eder.   
-<hr>
-a :  Web sitelerinde,Bir sayfadan başka bir sayfaya,Farklı bir siteye,
-Bağlantı vermek için <a> tagı kullanılır.
-<hr>
-img : Fotoğraf ekleme işlemleri img tagı ile yapılır.   
-<hr>
-Kullnıcıdan bilgi almak için kullanılan yapılara form denir. 
-Form içinde textbox, button, radio button, checkbox vb elemanlar olabilir.
-form : Tüm form elemanlarını içinde barındıran taşıyıcıdır.
-input : Kullanıcıdan bilgi almak için kullanılan form elemanlarının genel ismi
-label : Kullanıcıya form elemanı ile ilgili bilgi vermek için kullanılan eleman   
-<hr>
-text : Genel bilgi girişi için kullanılır
-email : Sadece eposta girişlerini kabul eder 
-password : Şifre girişi için kullanılır. Girilen değer gösterilmez
-number : Sadece rakam girişi için kullanılır
-checkbox : Birden fazla işaretleme yapılabilecek seçenekler sunar.
-radio : Sadece tek seçim yapabileceği seçenekler sunar. 
-    Cinsiyet gibi. Name attribute u aynı olan radio butonlar kendi aralarında 
-   grup olurlar.
-    file : Dosya yüklemek için kullanılır.
-    select : Kullanıcıya listeden seçim yaptırmak için kullanılır. 
-   Ülke, şehir gibi seçimler bu şekilde yapılır. Bunun için select tagı kullanılır. 
-   Her bir seçenek ise option tagı içine konulur.  
-    textarea : Çok uzun miktarda yazı girilmesini sağlayan form elemanı textarea dır. 
-   Geçerli değer textarea tagları arasına yazılabilir.   
-<hr>
-    button : Genel amaç için button oluşturur. 
-   Butonun default olarak bir görevi yoktur.
-    submit : Form bilgilerini backend e gönderen bir buton oluşturur.
-    reset : Formdaki bilgileri resetleyen bir buton oluşturur.
+<p>Daha sonra oluşturduğunuz bu dosyayı kaydedin. Açılan diyalog penceresinde, dosya isminin sonuna .html uzantısını ekleyin. Böylelikle dosyanın bir metin dosyası değil, html dosyası olduğunu belirtmiş olduk.</p>
+<p>Oluşturduğunuz html dosyasına çift tıklayın ve favori web tarayıcınızda çalıştırın.</p>
+<h2>HTML sürümleri</h2>
+<br>Sürüm -> Yıl
+<br>HTML -> 1991
+<br>HTML 2.0 -> 1995
+<br>HTML 3.2 -> 1997
+<br>HTML 4.01 -> 1999
+<br>XHTML -> 2000
+<br>HTML5 -> 2014
