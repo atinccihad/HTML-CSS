@@ -1,4 +1,4 @@
-<h3 align="center"><img src="https://miro.medium.com/max/4800/1*lJ32Bl-lHWmNMUSiSq17gQ.webp"/></h3>
+<h3 align="center"><img src="https://bilgeis.net/assets/images/product/product/web-tasariminin-temelleri-html-ve-css_1.jpg"/></h3>
 <h2>HTML'e Giriş</h2>
 <p>HTML, Hyper Text Markup Language ifadesinden oluşturulmuş bir İngilizce kısaltmadır ve Türkçe'ye "Hiper Metin İşaretleme Dili" şeklinde çevrilebilir. Bir işaretleme dilinin temel işlevi, bir belge içindeki metnin (text) yapısını, biçimini ve genel görünümünü tanımlayacak kuralları içermesi ve bunun uygulanmasına olanak vermesidir.</p>
 <p>İşaretleme dilinin kuralları belgeye yüklendikten sonra doğal olarak belge, bu kuralları okuyup nasıl uygulayacağını bilen bir bilgisayar programı tarafından işlenmelidir. Burada oluşturulan HTML içerikleri tarayıcılar tarafından anlamlaştırılarak, gördüğümüz web sitelerinin temelini oluştururlar.</p>
