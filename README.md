@@ -154,10 +154,9 @@ pre etiketinin kullanımını hiperlink ile birlikte anlatan örneğimiz aşağ�
 <p><html>
   <head>
   <meta charset="UTF-8">
-  <title>ÜLKELER VE NÜFUSLARI</title>
   </head>
+<body> 
   <title>ÜLKELER VE NÜFUSLARI</title>
-<body>   
     <h3>TÜRKİYE-ŞEHİRLER</h3>
     <h3>ÜLKELER VE NÜFUSLARI</h3>
 <pre>
