@@ -86,7 +86,7 @@ Bir başlık elemanının genel yazılış biçimi,
 
 HTML kodunuz içinde başlık düzeylerini atlatmamaya dikkat ediniz. Örneğin H1 ile başlayıp daha sonra H4'ü kullanmayın. Düzeyler birbirini sırasıyla izlemesi, arama motorları tarafından daha iyi bir konumda endekslenmeniz için de önemlidir.
 <h4>Paragraflar (Paragraphs)</h4>
-Oluşturacağınız Web sayfası üzerine yerleştireceğiniz metni ayrı paragraflar şeklinde ifade etmek için <p>  ve </p> etiketlerini kullanmalısınız.<br>
+Oluşturacağınız Web sayfası üzerine yerleştireceğiniz metni ayrı paragraflar şeklinde ifade etmek için p  ve /p etiketlerini kullanmalısınız.<br>
 <h4>Listeler (Lists)</h4>
 HTML, çeşitli türlerde listelerin oluşturulabilmesine olanak sağlar. Bu liste türleri,<br>
 Numaralanmamış liste<br>
@@ -100,7 +100,7 @@ Listeleri iç içe de kullanabilirsiniz. Hatta, tek bir liste kalemi içinde iç
 Ornek:{syntax'in belli olmasi icin alttaki taglari cevreleyen "< >" silinmistir.!!}<br> 
 html
   head
-    title TÜRKİYE'DE BÜYÜK ŞEHİRLER VE İLÇELER</title>
+    title TÜRKİYE'DE BÜYÜK ŞEHİRLER VE İLÇELER /title
   /head
   body   
       h3 TÜRKİYE-ŞEHİRLER /h3
