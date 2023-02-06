@@ -35,8 +35,7 @@ Hello World!
 <p>Tüm HTML belgeleri tip deklerasyonu ile başlamak zorundadır: ! DOCTYPE html
 HTML belgeleri, html etiketi ile başlar ve /html etiketi ile biter.
 HTML belgesi içindeki görüntülenen kısım ise body ve /body etiketleri arasında yer alır.
-Aşağıda basit bir HTML dosyası örneğini bulabilirsiniz.</p>
-<p>!DOCTYPE html
+<p>!DOCTYPE html Aşağıda basit bir HTML dosyası örneğini bulabilirsiniz.</p>
 html
   head
     titleBasit bir HTML metni başlığı/title
