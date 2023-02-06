@@ -7,8 +7,7 @@
 <p>HTML dosyalarının çalıştırılması için oluşturduğunuz dosyaların sonuna .html uzantısı eklemeniz ve bir internet tarayıcısı üzerinde açmanız yeterli olacaktır. Böylelikle yazmış olduğunuz HTML kodları ile oluşturduğunuz web sitesini görüntüleyebilirsiniz.</p>
 <p>HTML derslerine başlamadan önce, az önce anlattığımız olayı basit bir örnekle gösterelim:
 
-Öncelikle istediğiniz bir metin editörünü açın ve aşağıdaki kodları yazın.{html taglari arasinda, head taglari arasinda, meta charset="utf-8", body taglari arasinda "Hello World!" metininin ekrana ciktisi sadece Hello World! seklinde olacaktir.}
-<html>
+Öncelikle istediğiniz bir metin editörünü açın ve aşağıdaki kodları yazın.{html taglari arasinda, head taglari arasinda, meta charset="utf-8", body taglari arasinda "Hello World!" metininin ekrana ciktisi sadece Hello World! seklinde olacaktir.}<html>
 <head>
 <meta charset="utf-8">
 </head>
