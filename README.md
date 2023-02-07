@@ -366,9 +366,3 @@ _blank 	sayfayı yeni bir pencere ya da sekmede açar.<br>
 _self	sayfayı aynı çerçevede açar. (öntanımlı olan özelliktir)<br>
 _parent 	sayfayı bir üst çerçevede açar.<br>
 _top	sayfayı en üst çerçevede açar.<br>
-
-  
- 
-
-
-
