@@ -56,45 +56,37 @@ HTML 4.01
 XHTML 1.0
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"></p>
 <h2>En Temel HTML Etiket ve Anlamları</h2>
-HTML etiketi<br>
-HTML etiketi, tarayıcınıza, dosyanın HTML kodu ile yüklenmiş bilgi içerdiğini bildirir. Dosya adındaki .html uzantısı ise bu dosyanın bir HTML belgesi olduğunu belirtir.
-HEAD etiketi<br>
-Bir HTML belgesinin ilk kısmını belirler. İçinde TITLE elemanının bulunması zorunludur. Belgenin başlığını TITLE elemanı belirler.
-TITLE etiketi<br>
-TITLE etiketi yardımıyla oluşturduğunuz web sayfasının başlığını belirleyebilirsiniz. Bu başlık, yukarıda görüldüğü gibi, başlık çubuğu üzerinde görüntülenecektir.
-
-<br>Başlık içeriği, sayfanın içeriği ve işlevi ile uyumlu olmalıdır. Sayfayı tanımlayıcı nitelikte ve kısa olmalıdır.
-META etiketi<br>
-Meta etiketiyle sayfanızın bir tanımını yapabilir ve sayfa içeriğini uygun anahtar sözcüklerle tanımlayabilirsiniz.<br>
-Bazı önemli meta etiketleri ve açıklamaları şu şekildedir:<br>
-Keywords: Sitenizin içeriğini oluşturan kelimelerin bulunduğu etikettir.<br>
-Description: Bu etiket site hakkında bilgi veren temel etiketlerden biridir.<br>
-Author: Site yapımcısının adı, iletişim bilgilerinin bulunduğu etikettir.<br>
-<h3>BODY etiketi</h3>
-HTML belgenizin ikinci ve en uzun parçası BODY kısmıdır. Belgenizin tüm içeriği burada yer alacaktır. Bir sonraki belgede açıklanan etiketlerin tümü BODY içinde yer alacaktır.<br>
-<h3>Body İçerisinde Yer Alan Temel HTML Etiketleri</h3>
-<h4>Başlıklar (Headings)</h4><br>
-HTML metni içinde H1 ile H6 aralığında ölçeklendirilmiş 6 farklı düzeyde başlık kullanılabilir. Burada H1 en büyük başlığı, H6 ise en küçük başlığı simgelemektedir.
-
-Bir başlık elemanının genel yazılış biçimi,
-
-<Hx>Başlık Metni</Hx>
-
-şeklindedir. Burada x, 1 ile 6 arasında bir tamsayıdır ve başlığın düzeyini belirlemektedir.
-
-HTML kodunuz içinde başlık düzeylerini atlatmamaya dikkat ediniz. Örneğin H1 ile başlayıp daha sonra H4'ü kullanmayın. Düzeyler birbirini sırasıyla izlemesi, arama motorları tarafından daha iyi bir konumda endekslenmeniz için de önemlidir.
-<h4>Paragraflar (Paragraphs)</h4>
+ - HTML etiketi<br>
+ HTML etiketi, tarayıcınıza, dosyanın HTML kodu ile yüklenmiş bilgi içerdiğini bildirir. Dosya adındaki .html uzantısı ise bu dosyanın bir HTML belgesi olduğunu belirtir.
+ - HEAD etiketi<br>
+ Bir HTML belgesinin ilk kısmını belirler. İçinde TITLE elemanının bulunması zorunludur. Belgenin başlığını TITLE elemanı belirler.
+ - TITLE etiketi<br>
+ TITLE etiketi yardımıyla oluşturduğunuz web sayfasının başlığını belirleyebilirsiniz. Bu başlık, yukarıda görüldüğü gibi, başlık çubuğu üzerinde görüntülenecektir.
+<br> Başlık içeriği, sayfanın içeriği ve işlevi ile uyumlu olmalıdır. Sayfayı tanımlayıcı nitelikte ve kısa olmalıdır.
+ - META etiketi<br>
+ Meta etiketiyle sayfanızın bir tanımını yapabilir ve sayfa içeriğini uygun anahtar sözcüklerle tanımlayabilirsiniz.<br>
+ <h4>Bazı önemli meta etiketleri ve açıklamaları şu şekildedir:</h4><br>
+  1) Keywords: Sitenizin içeriğini oluşturan kelimelerin bulunduğu etikettir.<br>
+  2) Description: Bu etiket site hakkında bilgi veren temel etiketlerden biridir.<br>
+  3) Author: Site yapımcısının adı, iletişim bilgilerinin bulunduğu etikettir.<br>
+ - BODY etiketi
+ HTML belgenizin ikinci ve en uzun parçası BODY kısmıdır. Belgenizin tüm içeriği burada yer alacaktır. Bir sonraki belgede açıklanan etiketlerin tümü BODY içinde yer  alacaktır.<br>
+ <h5>Body İçerisinde Yer Alan Temel HTML Etiketleri</h5>
+ - Başlıklar (Headings)<br>
+ HTML metni içinde H1 ile H6 aralığında ölçeklendirilmiş 6 farklı düzeyde başlık kullanılabilir. Burada H1 en büyük başlığı, H6 ise en küçük başlığı simgelemektedir.
+ <br>Bir başlık elemanının genel yazılış biçimi,<br><Hx>Başlık Metni</Hx> şeklindedir. Burada x, 1 ile 6 arasında bir tamsayıdır ve başlığın düzeyini belirlemektedir.  <br>HTML kodunuz içinde başlık düzeylerini atlatmamaya dikkat ediniz. Örneğin H1 ile başlayıp daha sonra H4'ü kullanmayın. Düzeyler birbirini sırasıyla izlemesi, arama motorları tarafından daha iyi bir konumda endekslenmeniz için de önemlidir.
+ <h4>Paragraflar (Paragraphs)</h4>
 Oluşturacağınız Web sayfası üzerine yerleştireceğiniz metni ayrı paragraflar şeklinde ifade etmek için p  ve /p etiketlerini kullanmalısınız.<br>
-<h4>Listeler (Lists)</h4>
-HTML, çeşitli türlerde listelerin oluşturulabilmesine olanak sağlar. Bu liste türleri,<br>
-Numaralanmamış liste<br>
-Numaralanmış liste<br>
-Tanım listesi<br>
-şeklindedir.
-<h4>Numaralanmamış liste</h4>
-Numaralanmamış listeyi oluşturmak için ul ve /ul etiketleri kullanılır. Bu etiketler arasına liste elemanlarını yerleştirmek için <li> etiketi kullanılır. Bu etiketi izleyen yere liste elemanı yerleştirilmelidir. li etiketinin /li etiketiyle kapatılması zorunlu değildir.
-<h4>İç İçe Listeler</h4>
-Listeleri iç içe de kullanabilirsiniz. Hatta, tek bir liste kalemi içinde iç içe listeler içeren paragraflar da düzenleyebilirsiniz.
+ - Listeler (Lists)<br>
+ HTML, çeşitli türlerde listelerin oluşturulabilmesine olanak sağlar. Bu liste türleri,<br>
+   - Numaralanmamış liste<br>
+   - Numaralanmış liste<br>
+   - Tanım listesi<br>
+   şeklindedir.
+<h5>Numaralanmamış liste</h5>
+Numaralanmamış listeyi oluşturmak için ul ve /ul etiketleri kullanılır. Bu etiketler arasına liste elemanlarını yerleştirmek için <li> etiketi kullanılır. Bu etiketi izleyen yere liste elemanı yerleştirilmelidir. li etiketinin /li etiketiyle kapatılması zorunlu değildir.<br>
+<h5>İç İçe Listeler</h5>
+Listeleri iç içe de kullanabilirsiniz. Hatta, tek bir liste kalemi içinde iç içe listeler içeren paragraflar da düzenleyebilirsiniz.<br>
 Ornek:{syntax'in belli olmasi icin alttaki taglari cevreleyen "< >" silinmistir.!!}<br> 
 html
   head
@@ -117,7 +109,9 @@ html
     /ul
   /body
 /html
-<p><html>
+  
+<p>
+  <html>
   <head>
     <title>TÜRKİYE'DE BÜYÜK ŞEHİRLER VE İLÇELER</title>
   </head>
@@ -137,20 +131,26 @@ html
         </ul>
     </ul>
   </body>
-</html></p>
+ </html>
+</p>
 <h4>Çok Kullanılan Body Etiketleri</h4>
-<ul><h5><li> pre etiketi</li></h5>
+  
+<ul>
+<h5><li> pre etiketi</li></h5>
 <h5><li> br etiketI</li></h5>
 <h5><li> hr etiketi</li></h5>
 <h5><li> s ve strike etiketleri</li></h5>
 <h5><li> strong etiketi</li></h5>
-<h5><li> u etiketi</li></ul></h5>
-<p>Sabit genişlikli bir yazıtipi içinde bir metin oluşturmak istediğiniz takdirde, HTML'in " pre /pre (elmaslar icinde yazacak sekilde<>)" etiketini kullanabilirsiniz. pre terimi, İngilizce preformatted (önceden biçimlendirilmiş) sözcüğünden alınmıştır. Bu etiket ayrıca metin içindeki boşlukları, satır başlarını ve tab'ları da anlamlı hale getirir.</p>
-<p>pre etiketi, width özelliğiyle birlikte kullanılarak bir satır içinde yer alabilecek en fazla karakter sayısı da belirlenebilir. pre /pre etiketleri arasında hiperlinkler (hyperlink) kullanılabilir. Bununla birlikte, pre /pre etiketleri arasında, diğer etiketlerin kullanılmasından kaçınmak gerekir.</p>
-<p>Aşağıdaki örnekte ülkeler ve nüfusları önceden belirlenmiş bir biçimde web sayfası üzerine yerleştirilmek isteniyor. HTML kodunda ilerde daha ayrıntılı olarak ele alacağımız hiperlink oluşturma ve bu bağlantı tıklandığı takdirde buna bağlı dosyayı ekranda görüntülemeyle ilişkili küçük bir örnek de yer almaktadır.</p>
-<p>Aşağıdaki HTML kodu çağrılınca ekranda alt çizgili ve mavi renkte bir "DAHA FAZLA BİLGİ İÇİN" ifadesi belirecektir. Bu bir hiperlink'tir ve tıklandığında X.htm dosyası çağrılmaktadır.</p>
-pre etiketinin kullanımını hiperlink ile birlikte anlatan örneğimiz aşağıdadır:
-<p><html>
+<h5><li> u etiketi</li></h5>
+</ul>
+<p>Sabit genişlikli bir yazıtipi içinde bir metin oluşturmak istediğiniz takdirde, HTML'in " pre /pre (elmaslar icinde yazacak sekilde<>)" etiketini kullanabilirsiniz. pre terimi, İngilizce preformatted (önceden biçimlendirilmiş) sözcüğünden alınmıştır.Bu etiket ayrıca metin içindeki boşlukları, satır başlarını ve tab'ları da anlamlı hale getirir.</p>
+<p>pre etiketi, width özelliğiyle birlikte kullanılarak bir satır içinde yer alabilecek en fazla karakter sayısı da belirlenebilir.pre /pre etiketleri arasında hiperlinkler (hyperlink) kullanılabilir.Bununla birlikte, pre /pre etiketleri arasında, diğer etiketlerin kullanılmasından kaçınmak gerekir.</p>
+<p>Aşağıdaki örnekte ülkeler ve nüfusları önceden belirlenmiş bir biçimde web sayfası üzerine yerleştirilmek isteniyor.HTML kodunda ilerde daha ayrıntılı olarak ele alacağımız hiperlink oluşturma ve bu bağlantı tıklandığı takdirde buna bağlı dosyayı ekranda görüntülemeyle ilişkili küçük bir örnek de yer almaktadır.</p>
+<p>Aşağıdaki HTML kodu çağrılınca ekranda alt çizgili ve mavi renkte bir "DAHA FAZLA BİLGİ İÇİN" ifadesi belirecektir.Bu bir hiperlink'tir ve tıklandığında X.htm dosyası çağrılmaktadır.</p>
+  
+pre etiketinin kullanımını hiperlink ile birlikte anlatan örneğimiz aşağıdadır:<br>
+<p>
+  <html>
   <head>
   <meta charset="UTF-8">
   </head>
@@ -158,6 +158,11 @@ pre etiketinin kullanımını hiperlink ile birlikte anlatan örneğimiz aşağ�
   <title>ÜLKELER VE NÜFUSLARI</title>
     <h3>TÜRKİYE-ŞEHİRLER</h3>
     <h3>ÜLKELER VE NÜFUSLARI</h3>
+  </html>
+    </p>
+  </body>
+  
+  
 <pre>
 ÜLKE ADI       NÜFUSU (MİLYON KİŞİ)
 TÜRKİYE           65  
